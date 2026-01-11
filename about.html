@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PipePro - Free Plumbing Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block header-bar">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0">
+                    <img src="img/plumber-logo.png">
+                    
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">123 Street, New York, USA</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">info@example.com</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+   <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light stick-header-mbl">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+               <img src="img/plumber-logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Home</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="index.html" class="dropdown-item">Home1</a>
+                            <a href="home2.html" class="dropdown-item">Home2</a></div>
+                        </div>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="service-details.html" class="nav-item nav-link">Service Details</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="gallery.html" class="dropdown-item">Gallery</a>
+                            <a href="Maintenance.html" class="dropdown-item">Maintenance</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                            <a href="blog.html" class="dropdown-item">Blog</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-flex align-items-center rtl-dark">
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+    <button id="rtl-toggle" class="rtl-btn" aria-label="Toggle RTL">⇄</button>
+    </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center menu-top-contact">
+
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                    <div class="ms-3">
+                        <p class="mb-1 text-white">Emergency 24/7</p>
+                        <h5 class="m-0 text-secondary">+012 345 6789</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    
+    <!-- Who We Are Start -->
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <!-- Image -->
+      <div class="col-lg-6">
+        <div class="who-img position-relative">
+          <img src="img/about-1.jpg" class="img-fluid rounded" alt="About Us">
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="col-lg-6">
+        <h6 class="text-primary text-uppercase mb-2">Who We Are</h6>
+        <h2 class="mb-4">Trusted Plumbing Experts With Years of Experience</h2>
+
+        <p class="text-muted mb-3">
+          Since 1990, we have built a strong reputation by consistently providing dependable service, expert workmanship, and honest pricing. Our team of skilled and certified professionals is trained to handle everything from routine maintenance and emergency repairs to complex installations and system upgrades. We use modern tools, premium-quality materials, and proven techniques to ensure long-lasting results. Customer satisfaction is at the heart of everything we do, and we take pride in offering safe, timely, and cost-effective plumbing services that meet the highest industry standards while building long-term relationships with our clients.
+        </p>
+
+        <p class="text-muted mb-4">
+          From residential repairs to large commercial projects, our focus is on
+          quality workmanship, customer satisfaction, and long-term results.
+        </p>
+
+        <div class="row g-3 mb-4">
+          <div class="col-sm-6">
+            <p class="mb-2">
+              <i class="fa fa-check-circle text-primary me-2"></i>
+              Certified & Experienced Team
+            </p>
+            <p class="mb-0">
+              <i class="fa fa-check-circle text-primary me-2"></i>
+              Transparent Pricing
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p class="mb-2">
+              <i class="fa fa-check-circle text-primary me-2"></i>
+              Quick Response Support
+            </p>
+            <p class="mb-0">
+              <i class="fa fa-check-circle text-primary me-2"></i>
+              100% Customer Satisfaction
+            </p>
+          </div>
+        </div>
+
+        <a href="contact.html" class="btn btn-primary px-4 py-2">
+          Contact Us
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Who We Are End -->
+
+    <!-- About Services Start -->
+<div class="container-fluid py-5 bg-light">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h6 class="text-primary text-uppercase">What We Do</h6>
+      <h2 class="mb-3">Reliable Plumbing Services You Can Trust</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">
+        With years of experience and skilled professionals, we provide complete plumbing
+        solutions for homes, businesses, and emergency situations.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Service Item -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-about-card text-center h-100">
+          <div class="service-img">
+            <img src="img/service-1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="service-content p-4">
+            <h5 class="mb-3">Residential Plumbing</h5>
+            <p class="text-muted">
+              From leak repairs to full home plumbing installations, we ensure
+              safe, efficient, and long-lasting solutions for your household.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Item -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-about-card text-center h-100">
+          <div class="service-img">
+            <img src="img/service-2.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="service-content p-4">
+            <h5 class="mb-3">Commercial Plumbing</h5>
+            <p class="text-muted">
+              We offer reliable plumbing services for offices, shops, and industries,
+              ensuring minimal downtime and professional workmanship.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Item -->
+      <div class="col-lg-4 col-md-6 mx-auto">
+        <div class="service-about-card text-center h-100">
+          <div class="service-img">
+            <img src="img/service-3.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="service-content p-4">
+            <h5 class="mb-3">Emergency Services</h5>
+            <p class="text-muted">
+              Available 24/7 for urgent plumbing issues. Our quick response team
+              is always ready to handle emergencies efficiently.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- About Services End -->
+<!-- Mission Vision Values Start -->
+<div class="container-fluid py-5 bg-light">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h6 class="text-primary text-uppercase">Our Purpose</h6>
+      <h2 class="mb-3">Mission, Vision & Values</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">
+        We are driven by clear goals and strong values that guide every service
+        we provide to our customers.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Mission -->
+      <div class="col-lg-4 col-md-6">
+        <div class="mvv-card text-center h-100">
+          <div class="mvv-icon mb-3">
+            <i class="fa fa-bullseye"></i>
+          </div>
+          <h5 class="mb-3">Our Mission</h5>
+          <p class="text-muted">
+            To deliver reliable, affordable, and high-quality plumbing services
+            while ensuring customer satisfaction through honest work and
+            professional service.
+          </p>
+        </div>
+      </div>
+
+      <!-- Vision -->
+      <div class="col-lg-4 col-md-6">
+        <div class="mvv-card text-center h-100">
+          <div class="mvv-icon mb-3">
+            <i class="fa fa-eye"></i>
+          </div>
+          <h5 class="mb-3">Our Vision</h5>
+          <p class="text-muted">
+            To become a trusted and leading plumbing service provider known for
+            innovation, quality workmanship, and long-term customer relationships.
+          </p>
+        </div>
+      </div>
+
+      <!-- Values -->
+      <div class="col-lg-4 col-md-6 mx-auto">
+        <div class="mvv-card text-center h-100">
+          <div class="mvv-icon mb-3">
+            <i class="fa fa-handshake"></i>
+          </div>
+          <h5 class="mb-3">Our Values</h5>
+          <p class="text-muted">
+            Integrity, transparency, safety, and commitment to excellence guide
+            everything we do, ensuring trust and reliability in every project.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Mission Vision Values End -->
+
+
+
+    <!-- Fact Start -->
+    <div class="container-fluid fact bg-dark my-5 py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <i class="fa fa-check fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2 counter-plus" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Years Experience</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2 counter-plus" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Expert Technicians</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-users fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2 counter-plus" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Satisfied Clients</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <i class="fa fa-wrench fa-2x text-white mb-3"></i>
+                    <h2 class="text-white mb-2 counter-plus" data-toggle="counter-up">1234</h2>
+                    <p class="text-white mb-0">Compleate Projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+
+   <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Technicians</h6>
+                <h1 class="mb-5">Our Expert Technicians</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">John Doe</h5>
+                                <small>Electrician</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Emily Davis</h5>
+                                <small>Plumber</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Michael Lee</h5>
+                                <small>Mechanic</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Grace Anderson</h5>
+                                <small>Technician</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+        
+
+   <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Drain Cleaning</a>
+                    <a class="btn btn-link" href="">Sewer Line</a>
+                    <a class="btn btn-link" href="">Water Heating</a>
+                    <a class="btn btn-link" href="">Toilet Cleaning</a>
+                    <a class="btn btn-link" href="">Broken Pipe</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Get plumbing tips, updates, and special offers straight to your inbox.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-3 mb-md-0">
+                        Copyright © 2026 PipePro. All Rights Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
