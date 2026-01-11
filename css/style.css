@@ -1984,4 +1984,8 @@ padding: 45px 40px 45px 3px;
 .rtl .header-carousel .container::before,.rtl .header-carousel .container::after
 {
     left: 93%;
+
+}
+html, body {
+    overflow-x: hidden;
 }
