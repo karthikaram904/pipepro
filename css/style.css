@@ -2013,5 +2013,10 @@ html, body {
         flex-direction: column-reverse; /* sidebar மேலே வரும் */
     }
 }
+.footer .navbar-brand img {
+  width: 180px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
 
 
