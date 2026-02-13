@@ -2006,4 +2006,12 @@ html, body {
   display: none !important;
 }
 }
+/* Sidebar content top move in mobile/tablet */
+@media (max-width: 991.98px) { /* Bootstrap md/lg breakpoints */
+    .blog-flex {
+        display: flex;
+        flex-direction: column-reverse; /* sidebar மேலே வரும் */
+    }
+}
+
 
