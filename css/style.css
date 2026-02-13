@@ -2001,3 +2001,9 @@ html, body {
 {
     color:var(--primary);
 }
+@media (max-width: 1025px) {
+.mt-4.mt-lg-0.me-lg-n4.py-3.px-4.bg-primary.d-flex.align-items-center.menu-top-contact {
+  display: none !important;
+}
+}
+
