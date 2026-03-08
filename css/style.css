@@ -2018,5 +2018,9 @@ html, body {
   margin-bottom: 20px;
   margin-top: -10px;
 }
+.service-carousel .owl-stage-outer {
+  padding: 20px 0px;
+}
+
 
 
